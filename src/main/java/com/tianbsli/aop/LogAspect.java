@@ -30,7 +30,7 @@ public class LogAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(LogAspect.class);
 
-    //@Pointcut("execution(* com.tianbsli.*.*(..))")
+    //@Pointcut("execution(* com.tianbsli.Controller.*.*(..))")
     @Pointcut("@annotation(com.tianbsli.annotation.PrintLog)")
     public void controllerLog() {}
 
