@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
  *
  * 定时任务，每5s调用一次timeTelling接口获取时间，触发日志打印
  */
-@Component
+//@Component
 public class TimeTask {
 
     @Scheduled(fixedRate = 5000)
